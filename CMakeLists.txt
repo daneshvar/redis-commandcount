@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0)
 set (PROJECT_VERSION "1.0")
-set(PROJECT_NAME countcmd)
+set(PROJECT_NAME cmdcount)
 file(GLOB SOURCES src/*.[ch])
 
-add_definitions(-DCOUNTCMD_MOD_VER=${PROJECT_VERSION})
-add_definitions(-DCOUNTCMD_MOD_NAME="${PROJECT_NAME}")
+add_definitions(-DCMDCOUNT_MOD_VER=${PROJECT_VERSION})
+add_definitions(-DCMDCOUNT_MOD_NAME="${PROJECT_NAME}")
 
 project(${PROJECT_NAME} VERSION ${PROJECT_VERSION})
 
