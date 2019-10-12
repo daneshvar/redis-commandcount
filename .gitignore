@@ -1,0 +1,6 @@
+backups/
+build/
+.vscode/
+
+# QtCreator
+CMakeLists.txt.user
